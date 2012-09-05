@@ -1,0 +1,3 @@
+5 * * * *  sh /home/dep/MailSampleUpload/UploadABSSample.sh
+45 23 * * *  rm -f /home/dep/MailSampleUpload/data/*
+10 23 * * * sh /home/dep/MailSampleUpload/clearlog.sh
